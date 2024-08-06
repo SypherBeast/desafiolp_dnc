@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    background-color: rgb(40,54,105);
+background-color: linear-gradient(0deg, rgba(40,54,105,1) 0%, rgba(27,42,93,1) 38%, rgba(0,0,0,1) 100%);
+}
+
+h1{
+    font-size: 40px;
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 18%;
+    color: white;
+}
+button{
+    margin-top: 25px;
+    width: 160px;
+    height: 45px;
+    background-color:#C07212;
+    border: 0px;
+    color: #EAECE5;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background: #91540b;
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+#botao{
+    text-align: center;
+    margin: 35px;
+}

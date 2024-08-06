@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    
+}
+h1{
+    font-family: Poppins;
+}
+p{
+    font-family: Montserrat;
+}
+
+/*HEADER*/
+#menu-principal{
+
+    width:100%;
+    height: 250px;
+    background: #303030;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+#titulo-header{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+#subtitulo-header{
+    font-size: 14px;
+    margin: 12px 4px 0px 25px;
+    padding-bottom: 40px;
+}
+/*FIM DO HEADER*/
+
+/*MENU INFORMACIONAL*/
+
+#menu-informacional{
+    padding: 40px 0px 40px 0px;
+    background: #eeeeee;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+}
+.texto-informativo{
+    text-align: left;
+    margin-left: 85px;
+}
+.subinfo{
+
+    margin-top: -5px;
+    margin-left: 13px;
+
+}
+#subinformate{
+    margin-left: -10px;
+}
+/*FIM DO MENU INFORMACIONAL*/
+
+/*IMAGEM*/
+
+#secao-imagem{
+    display: grid;/*É o que dita que vai ter uma posição determinada, organização na tela*/
+    grid-auto-flow: column; /*É o que torna enfileirado*/
+    columns: auto; /*É o que dita que vai ter uma posição automática de acordo com o display*/
+    align-items: center;
+}
+
+#h1-video{
+    font-weight: 500;
+    margin-top: -100px;
+    margin-bottom: 25px;
+}
+
+#titulo-video{
+    padding-right: 50px;
+    margin-left: 80px;
+    color: #000000;
+    line-height: 33px;
+    margin-top: 70px;
+}
+
+#imagem{
+    width: 300px;
+    height: 400px;
+    margin: 50px 25px 50px 35px;
+}
+
+#texto-video{
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/*FIM DA SEÇÃO IMAGEM*/
+
+/*FORMULÁRIO*/
+
+#formulario{
+    background: #303030;
+    text-align: center;
+}
+#titulo-form{
+    padding: 50px 20px 0px 80px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 12px;
+    border: 0px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+button{
+    margin-top: 25px;
+    width: 160px;
+    height: 45px;
+    background-color:#C07212;
+    border: 0px;
+    color: #EAECE5;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background: #91540b;
+    color: white;
+    transform: translateY(5px);
+    transition: 0.4s;
+}
+
+/*FIM DA SEÇÃO FORMULÁRIO*/
